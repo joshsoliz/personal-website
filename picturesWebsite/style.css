@@ -1,0 +1,85 @@
+::selection {
+  background: #ff8600;
+  color: #fff4e4;
+}
+body {
+  font-family: "Red Hat Display";
+  color: #ff8600;
+  background-color: #fff4e4;
+}
+h1 {
+  font-size: 12em;
+  font-family: "Sporting Grotesque";
+  color: #ff8600;
+}
+h2 {
+  margin-top: -2em;
+  font-size: 2em;
+}
+h3 {
+  background-image: linear-gradient(#ff8600, #ff8600);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  transition: background-size 0.25s ease-in-out;
+}
+h3:hover,
+h3:focus,
+h3:active {
+  cursor: pointer;
+  background-size: 100% 0.1em;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5em;
+  font-size: 1.5em;
+}
+a {
+  color: #ff8600;
+  text-decoration: none;
+  background-image: linear-gradient(#ff8600, #ff8600);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  transition: background-size 0.25s ease-in-out;
+}
+a:hover,
+a:focus,
+a:active {
+  background-size: 100% 0.1em;
+}
+.menuBar {
+  margin-top: 5em;
+}
+.startingMenu {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+}
+.startingInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+.gridPortfolioContainer {
+}
+.gridPortfolio {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 2em;
+}
+img {
+  width: 40vw;
+  height: 40em;
+  background-color: gray;
+}
